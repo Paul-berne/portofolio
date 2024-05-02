@@ -1,0 +1,217 @@
+body {
+    background-image: url('../img/15518074_5594016.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Couleur de fond claire */
+    color: #333; /* Couleur de texte sombre pour contraster avec le fond clair */
+}
+
+header {
+    background-color: #f5f5f5; /* Couleur de fond claire */
+    color: #333; /* Couleur de texte sombre */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    background-color: #fff; /* Couleur de fond blanche */
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+section h1{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Couleur de texte sombre */
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+}
+
+.project {
+    margin-top: 20px;
+    padding: 5px;
+    flex: 0 0 48%;
+    display: flex;
+    max-width: 48%;
+    text-align: center;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project img {
+    width: 10%;
+}
+
+.project a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f5f5f5; /* Couleur de fond claire */
+    color: #333; /* Couleur de texte sombre pour contraster avec le fond clair */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    display: inline-block; /* Permet d'appliquer du padding et d'autres styles de boîte */
+    margin: 5px 0; /* Ajoute un peu d'espace au-dessus et en dessous du lien */
+    border-radius: 10px; /* Adoucit les coins du lien */
+}
+
+
+.project img{
+    width: 5%;
+}
+
+.introduction {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.introduction-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.introduction-content img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.introduction-content p {
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center; 
+    line-height: 1.6;
+}
+
+.introduction-text {
+    width: 100%;
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Couleur de texte sombre */
+    padding-bottom: 20px;
+}
+
+.education-item {
+    display: flex; /* Utilisez Flexbox pour aligner les éléments côte à côte */
+    justify-content: space-between; /* Espacement entre les éléments */
+    align-items: center; /* Alignement vertical des éléments */
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f5f5f5; /* Couleur de fond claire */
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); /* Ajoute une ombre pour donner de la profondeur */
+}
+
+.education-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333; /* Couleur de texte sombre */
+}
+
+.education-item h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666; /* Couleur de texte plus claire */
+}
+
+.year {
+    font-size: 16px;
+    color: #aaa; /* Couleur de texte encore plus claire */
+    margin-bottom: 10px;
+}
+
+.education-item img {
+    max-width: 200px; /* Ajustez la taille de l'image selon vos besoins */
+    border-radius: 10px; /* Pour adoucir les coins de l'image, si vous le souhaitez */
+}
+
+.experience-item {
+    display: flex; /* Utilisez Flexbox pour aligner les éléments côte à côte */
+    justify-content: space-between; /* Espacement entre les éléments */
+    align-items: center; /* Alignement vertical des éléments */
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f5f5f5; /* Couleur de fond claire */
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); /* Ajoute une ombre pour donner de la profondeur */
+}
+
+.experience-item img {
+    max-width: 200px; /* Ajustez la taille de l'image selon vos besoins */
+    border-radius: 10px; /* Pour adoucir les coins de l'image, si vous le souhaitez */
+}
+
+#experience h2{
+    padding-top: 20px;
+}
+
+.section ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0;
+}
+
+.section ul li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f5f5f5; /* Couleur de fond claire */
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); /* Ajoute une ombre pour donner de la profondeur */
+}
+
+a {
+    color: #000; /* Couleur de texte noir */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+a:hover {
+    color: #666; /* Couleur de texte gris foncé au survol */
+}
+
+/* Cela s'applique à toute la barre de défilement */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
